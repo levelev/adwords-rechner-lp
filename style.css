@@ -23,7 +23,9 @@ h1, h2, p {
 
 #lp-copy{
   font-size: .8em;
-
+}
+#hamburger-menu::before {
+  display: none !important;
 }
 /* CSS for typeform */
 
@@ -55,7 +57,7 @@ iframe{
 
 /* Logo */
 .navbar-wagon-brand img {
-  height: 50px;
+  height: 40px;
 }
 
 /* User Avatar */
